@@ -1,0 +1,39 @@
+.border{
+    text-align: center;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0.1));
+    display:flex;
+    flex-direction:column;
+    height: 90%;
+    width:30%;
+    align-items: center;
+    margin: auto;
+    border-radius: 25px;
+    border:black;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.6);
+    margin-top: -150px;
+}
+.input{
+    width: 80%;
+    height: 50px;
+    color: blue;
+    background: transparent;
+    font-size: 20px;
+    border-radius: 25px;
+    text-align: center;
+}
+.info{
+    color: blue;
+   
+}
+.temp{
+    color:white;
+}
+.max{
+    color:black;
+}
+.nodata{
+    color:red;
+    text-decoration: underline;
+}
