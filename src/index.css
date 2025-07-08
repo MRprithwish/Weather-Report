@@ -1,6 +1,6 @@
 body {
-  margin-top: 300px;
-  background-image: url(./pexels-souvenirpixels-417074.jpg);
+  background-image: url(./sky.jpg);
+  margin: 0;
   background-size: cover;
   background-position: fixed;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -8,6 +8,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
 }
 
 code {

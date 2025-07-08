@@ -1,39 +1,66 @@
+.logo{
+    color: white;
+    padding-left: 20px;
+}
+
 .border{
     text-align: center;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0.1));
-    display:flex;
+    background: rgba(23, 114, 189, 0.303);
     flex-direction:column;
-    height: 90%;
-    width:30%;
+    display: flex;
+    width: 410px;
+    size: fixed;
     align-items: center;
     margin: auto;
     border-radius: 25px;
-    border:black;
-    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.6);
-    margin-top: -150px;
+    border:rgb(252, 250, 250);
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 80px;
 }
 .input{
-    width: 80%;
+    width: 90%;
     height: 50px;
-    color: blue;
-    background: transparent;
-    font-size: 20px;
-    border-radius: 25px;
-    text-align: center;
+    color: rgb(7, 7, 7);
+    background: white;
+    font-size: 22px;
+    border-radius: 10px;
+    text-align: center; 
+    border-color: white;
 }
 .info{
-    color: blue;
+    color: rgb(244, 244, 249);
    
 }
 .temp{
-    color:white;
+    font-size: 45px;
+    color: rgb(223, 197, 64);
 }
-.max{
-    color:black;
+.line{
+    width: 350px;
 }
-.nodata{
-    color:red;
-    text-decoration: underline;
+.credit{
+    color: white;
+    font-size: 12px;
+    margin-top: 25px;
+    text-align: center;
 }
+
+@media (max-width:800px) {
+    .logo{
+        padding-left: 250px;
+    }
+}
+@media (max-width:750px) {
+   .logo{
+        padding-left: 200px;
+    }
+}
+@media (max-width:500px) {
+   .logo{
+        padding-left: 110px;
+    }
+}
+
